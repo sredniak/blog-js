@@ -22,6 +22,7 @@
     font-weight: 300;
     font-size: 16px;
     line-height: 1.7;
+    
   }
   
   .container {
@@ -54,6 +55,7 @@
   
   .posts {
     flex: 2 0 0;
+    list-style-type: none;
   }
   
   .sidebar, .posts {
