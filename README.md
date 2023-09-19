@@ -1,1 +1,1 @@
-# blog-js
+# javascript-blog
