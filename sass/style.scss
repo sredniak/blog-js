@@ -22,6 +22,7 @@ body {
   font-weight: 300;
   font-size: 16px;
   line-height: 1.7;
+  list-style-type: none;
 }
 
 .container {
@@ -34,6 +35,7 @@ body {
   text-transform: uppercase;
   font-family: $font-header;
   font-weight: 600;
+
   span {
     text-transform: none;
     font-weight: 400;
@@ -54,7 +56,6 @@ body {
 
 .posts {
   flex: 2 0 0;
-  list-style-type: none;
 }
 
 .sidebar, .posts {
@@ -81,6 +82,7 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
+
   .active {
     font-weight: bold;
   }
@@ -89,6 +91,7 @@ body {
 .list-horizontal {
   li {
     display: inline-block;
+    padding: 0 4px;
   }
 }
 
@@ -104,6 +107,7 @@ body {
 
 .post {
   display: none;
+
   &.active {
     display: block;
   }
@@ -115,7 +119,41 @@ body {
 
 .post-tags {
   display: flex;
+
   p {
     margin: 0 10px 0 0;
   }
+}
+
+a {
+  text-decoration: none;
+}
+
+ul.list.tags {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2px;
+}
+
+.tag-size-1 {
+  font-size: 75%;
+  color: red;
+}
+
+.tag-size-2 {
+  font-size: 85%;
+}
+
+.tag-size-3 {
+  font-size: 95%;
+  color: green;
+}
+
+.tag-size-4 {
+  font-size: 105%;
+}
+
+.tag-size-5 {
+  font-size: 120%;
+  color: blue;
 }
